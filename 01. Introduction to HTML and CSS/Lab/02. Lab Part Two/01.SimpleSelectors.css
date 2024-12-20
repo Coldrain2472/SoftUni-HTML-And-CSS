@@ -1,0 +1,31 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: small;
+}
+
+.highlight {
+    background-color: greenyellow;
+}
+
+#main-title {
+    color: orange;
+}
+
+#special-paragraph {
+font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: gold;
+}
+
+div {
+    background-color: violet;
+}
