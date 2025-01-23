@@ -6,53 +6,53 @@
 
 body {
     background-color: #ccc;
+    padding: 2em;
     font: 14px/1.5 Lato, sans-serif;
 }
 
-body > div {
-    background-color: white;
-    max-width: 1200px;
+.site {
+    max-width: 800px;
     margin: 2em auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    border-radius: 0.2em;
-}
-
-header {
-    margin-bottom: 1em;
-}
-
-footer {
-    margin-top: 1em;
-}
-
-header, footer {
-    border: 1px solid grey;
-    padding: 0.5em;
-}
-
-.container-one, .container-two {
+    background: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0,0.1);
+    padding: 2em;
     display: flex;
-    justify-content: space-between;
-    gap: 0.5em;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
-
-main, aside {
-    border: 1px solid grey;
+.site > * {
+    border: 1px solid #ccc;
     padding: 1em;
+    border-radius: 0.3em;
 }
 
-.container-one main {
-    flex-grow: 2;
-}
-.container-one aside {
-    flex-grow: 1;
+.site > header,
+.site > footer {
+    flex: 0 0 100%;
 }
 
-.container-two main {
-    flex-grow: 1;
+.site > main {
+    flex: 0 0 70%;
 }
-.container-two aside {
-    flex-grow: 2;
+
+.site > aside {
+    flex: 1 0 auto;
+}
+
+.site.sidebar-left > header {
+    order: 1;
+}
+
+.site.sidebar-left > main {
+    order: 3;
+}
+
+.site.sidebar-left > aside {
+    order: 2;
+}
+
+.site.sidebar-left > footer {
+    order: 4;
 }
