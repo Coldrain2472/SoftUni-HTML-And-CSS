@@ -8,33 +8,34 @@
 </head>
 <body>
     <h1>Collapsable & expandable tree view in HTML & CSS only</h1>
-    <div class="tree">
-        <ul>
-            <li>
-                <input type="checkbox" id="giant-planets">
-                <label for="giant-planets">
-                    <span class="circle">-</span> Giant planets
-                </label>
+
+    <ul>
+        <li>
+            <details open>
+                <summary>Giant Planets</summary>
                 <ul>
                     <li>
-                        <input type="checkbox" id="gas-giants">
-                        <label for="gas-giants">
-                            <span class="circle">-</span> Gas giants
-                        </label>
-                        <ul>
-                            <li>Jupiter</li>
-                            <li>Saturn</li>
-                        </ul>
+                        <details open>
+                            <summary>Gas giants</summary>
+                            <ul>
+                                <li>Jupiter</li>
+                                <li>Saturn</li>
+                            </ul>
+                        </details>
                     </li>
+    
                     <li>
-                        <input type="checkbox" id="ice-giants">
-                        <label for="ice-giants">
-                            <span class="circle">+</span> Ice giants
-                        </label>
+                        <details open>
+                            <summary>Ice planets</summary>
+                            <ul>
+                                <li>Uranus</li>
+                                <li>Neptune</li>
+                            </ul>
+                        </details>
                     </li>
                 </ul>
-            </li>
-        </ul>
-    </div>
+            </details>
+        </li>
+    </ul>
 </body>
 </html>
