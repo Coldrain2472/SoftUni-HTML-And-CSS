@@ -6,8 +6,8 @@
 
 body {
     padding: 2em;
-    font: 14px/1.5 sans-serif;
-    background-color: #e4e4e4;
+    font: 14px/1.5 Lato, sans-serif;
+    background: #eee;
 }
 
 .site {
@@ -35,7 +35,7 @@ body {
 }
 
 article {
-    background-color: white;
+    background: #fff;
     padding: 1.5em;
     border-radius: 1.5%;
 }
@@ -56,7 +56,7 @@ article .avatar {
     border-radius: 50%;
     box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
     overflow: hidden;
-    border: 0.3em solid white;
+    border: 0.3em solid #fff;
 }
 
 article .avatar .img {
@@ -67,8 +67,7 @@ article .avatar .img {
 
 article p {
     padding-bottom: 1.5em;
-    color: grey;
-    font-weight: normal
+    opacity: 0.6;
 }
 
 article .content::before {
