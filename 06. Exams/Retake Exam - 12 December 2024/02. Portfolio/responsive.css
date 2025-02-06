@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-header {
+        width: auto;
+        display: inline-block;
+        position: relative;
+        bottom: -12em;
+        padding-left: 5em;
+        margin: -3em;
+    }
+
+    .about-text {
+        width: auto;
+        display: inline-block;
+        margin-left:250px;
+        text-align: left;
+        padding-bottom: 1em;
+    }
+
+    .site-header > i, h1 {
+        text-align: center;
+        position: relative;
+        bottom: -150px;
+    }
+
+    .site-header > i {
+        left: 252px;
+    }
+
+}
