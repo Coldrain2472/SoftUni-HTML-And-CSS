@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F4EE;
+}
+
+/* Header */
+.hero {
+    background: url('./images/poster.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.hero-content h1 {
+    font-family: 'Cormorant Infant', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    padding-bottom: 1.5em;
+}
+
+.hero-content p {
+    font-size: 16px;
+}
+
+/* Testimonial Section */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 50px 20px;
+    background: #F8F0E9;
+}
+
+.testimonial .section-title {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.5;
+    align-self: center;
+    padding-bottom: 2em;
+}
+
+.testimonial blockquote {
+    font-family: 'Cormorant Infant', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight:600;
+    max-width: 400px;
+    line-height: 1.1;
+    align-self: center;
+}
+
+/* Support Section */
+.support {
+    background-color: #E14747;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1920px;
+}
+
+.support h2 {
+    font-size: 24px;
+    padding-bottom: 1.5em;
+}
+
+.support p {
+    max-width: 30ch;
+}
+
+/* Article Section */
+.article {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article img {
+    max-width: 100%;
+    padding-bottom: 1em;
+}
+
+.article h2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 36px;
+    margin: 20px 0;
+    padding-bottom: 1.5em;
+}
+
+.article p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 16px;
+    opacity: 0.7;
+    padding-bottom: 2em;
+    text-align: left;
+}
+
+.btn {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 7px 15px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.secondary {
+    background: #fff;
+    align-self: flex-end;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #E14747;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    font-family: 'Cormorant Infant', serif;
+    padding-bottom: 2em;
+}
+
+.cta p {
+    font-size: 16px;
+    padding-bottom: 2em;
+    width: 50ch;
+    text-align: center;
+}
+
+.cta-btn {
+    background-color: #FAD87A;
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 1em 1em;
+}
+
+/* Footer */
+footer {
+    background-color: #352B2A;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1920px;
+}
+
+.footer-content p {
+    font-size: 16px;
+    width: 50ch;
+    text-align: left;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+.footer-content .special {
+    opacity: 0.5;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+footer img {
+    display: block;
+}
